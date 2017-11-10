@@ -306,9 +306,10 @@ li {
     background-color: black;
 }
 .down_footer1{
-    background-color: white;
-    width:100%;
-    clear:both;
+    background-color: black;
+    width: 100%;
+    clear: both;
+    height: 100px;
 
 }
 
@@ -316,8 +317,8 @@ li {
     float:left;
     display: inline;
     width:27%;
-    padding: 45px 0 0 0;
-    margin: 0 0 0 0;
+    margin: 0;
+    transform: translateY(245%);
 }
 .downfooterleft span{
     color: #8b898b;
@@ -326,19 +327,21 @@ li {
     float:left;
     display: inline;
     width:42%;
-    margin: 45px 0 0 0;
+    margin: 0;
+    transform: translateY(245%);
 
 }
 .downfootermiddle a{
     color: #8b898b;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 .downfooterright{
     float:left;
     display: inline;
     width:31%;
-    margin: 35px 0 0 0;
+    margin: 0;
+    transform: translateY(115%);
 }
 .downfooterright span{
     float:right;
@@ -867,4 +870,20 @@ banner3 h3{
     height: 525px;
     width: 100%;
 
+}
+.end_footer{
+    background-color: grey;
+    text-align: center;
+    font-size: 7px;
+    clear: both;
+    width: 100%;
+    transform: translateY(145%);
+    height: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: whitesmoke;
+}
+.end_footer h1{
+    margin: 0;
+    transform: translateY(95%);
 }
